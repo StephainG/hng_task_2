@@ -33,11 +33,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 80px;
 }
 
 .navbar-store h2{
     font-size: 20px;
+    color: #717171;
+    font-size: 32px;
 }
 
 .navbar-store .navbar-cart{

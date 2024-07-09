@@ -5,11 +5,11 @@ const StoreItem = ({id, image, name, price}) => {
   return (
       <div className='store-item'>
           <div className="store-item-image">
-              <img className='food-item-image' src={image} alt="" />
+              <img className='store-item-image' src={image} alt="" />
           </div>
           <div className="store-item-information">
-              <p className="food-item-description">{name}</p>
-              <p className="food-item-price">${ price }</p>
+              <p className="store-item-description">{name}</p>
+              <p className="store-item-price">${ price }</p>
           </div>
     </div>
   )
