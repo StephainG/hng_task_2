@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 80px;
+    background: #FFD700;
+}
+
+.navbar .navbar-input input[type="text"] {
+    width: 318px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.navbar .navbar-login button{
+    width: 70px;
+    height: 31px;
+    margin: 0 12px;
+    border: none;
+    background: white;
+}
+
+.navbar .navbar-login .signup{
+    background: #FDFD96;
+}
+
+.navbar-store{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar-store h2{
+    font-size: 20px;
+}
+
+.navbar-store .navbar-cart{
+    padding: 8px 20px;
+    background: #FFD700;
+}

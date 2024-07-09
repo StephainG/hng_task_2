@@ -1,0 +1,26 @@
+.listitem {
+    margin-top: 30px;
+}
+
+.displayfood h2 {
+    font-size: max(2vw, 24px);
+    font-weight: 400;
+}
+
+.display-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.listitem-deal{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #FDFD96;
+}
+
+.listitem-deal{
+    color: #717171;
+}
