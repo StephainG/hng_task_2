@@ -17,6 +17,14 @@
     gap: 80px;
 }
 
+.footer-content-left .footer-content-title{
+    display: flex;
+}
+
+.footer-content-left .footer-content-title h1{
+    margin-left: 12px;
+}
+
 .footer-content-left,
 .footer-content-right{
     display: flex;

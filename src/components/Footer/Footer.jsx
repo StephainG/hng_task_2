@@ -7,8 +7,10 @@ const Footer = () => {
     <div className='footer' id='footer'>
           <div className="footer-content">
               <div className="footer-content-left">
-                  <img src="" alt="" />
-                  <h1>My Store</h1>
+                  <div className="footer-content-title">
+                      <img src={assets.navbar} alt="" />
+                      <h1>My Store</h1>
+                  </div>
                   <p>DOWNLOAD MyStore FREE APP</p>
                   <p>Get access to our lates exclusive offer</p>
                   <div className="app-download-platforms">
