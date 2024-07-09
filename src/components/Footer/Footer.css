@@ -64,7 +64,11 @@
 }
 .footer-services{
     display: flex;
-    margin: 60px 0;
+    margin: 60px;
+}
+
+.footer-services div{
+    margin: 0 60px;
 }
 
 .app-download-platforms {
